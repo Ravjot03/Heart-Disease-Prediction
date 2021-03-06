@@ -20,6 +20,33 @@ The dataset is available on the Kaggle website, and it is from an ongoing cardio
 
 The dataset is already provided in the repository ([here](https://github.com/Ravjot03/Heart-Disease-Prediction/blob/master/framingham.csv)).
 
+Framingham Heart study dataset includes several demographic risk factors:-
+1. `sex`: male or female
+2. `age`: age of the patient
+3. `education`: levels coded 1 for some high school, 2 for a high school diploma or GED, 3 for some college or vocational school, and 4 for a college degree.
+
+The data set also includes behavioral risk factors associated with smoking
+
+4. `currentSmoker`: whether or not the patient is a current smoker
+5. `cigsPerDay`: the number of cigarettes that the person smoked on average in one day.
+
+Medical history risk factors
+
+6. `BPMeds`: whether or not the patient was on blood pressure medication
+7. `prevalentStroke`: whether or not the patient had previously had a stroke
+8. `prevalentHyp`: whether or not the patient was hypertensive
+9. `diabetes`: whether or not the patient had diabetes
+
+Risk factors from the first physical examination of the patient.
+
+10. `totChol`: total cholesterol level
+11. `sysBP`: systolic blood pressure
+12. `diaBP`: diastolic blood pressure
+13. `BMI`: Body Mass Index
+14. `heartRate`: heart rate
+15. `glucose`: glucose level
+16. `TenYearCHD`: 10 year risk of coronary heart disease CHD *(TARGET VARIABLE)*
+
 ---
 ## Libraries Used - 
   1. Pandas *(for data manipulation)*
